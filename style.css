@@ -7,6 +7,7 @@ body {
     background-color: #0c0c0c;
     color: #f3f3f3;
     font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
 }
 
 .container {
@@ -19,6 +20,27 @@ body {
 }
 
 .title {
-    font-size: 64px;
-    margin-bottom: 16px;
+    font-size: 87px;
+    margin-bottom: -8px;
+}
+
+.inviteBtn {
+    margin-top: 16px;
+    background-color: #4c4c4c;
+    font-size: 1.15em;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 12px;
+    transition-duration: .1s;
+}
+
+.inviteBtn:hover {
+    opacity: 0.72;
+}
+
+.inviteBtn div {
+    padding: 16px;
+    width: 320px;
+    box-sizing: border-box;
+    text-align: center;
 }
