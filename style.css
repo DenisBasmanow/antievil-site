@@ -4,8 +4,9 @@
 }
 
 body {
-    background-color: #1a1a1a;
+    background-color: #0c0c0c;
     color: #f3f3f3;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -15,4 +16,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.title {
+    font-size: 64px;
+    margin-bottom: 16px;
 }
